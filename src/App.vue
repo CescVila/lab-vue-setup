@@ -1,15 +1,21 @@
 <template>
+  
+  <NavComponent />
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <FooderComponent />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import NavComponent from './components/NavComponent.vue'
+import FooderComponent from './components/FooderComponent.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    NavComponent,
+    FooderComponent
   }
 }
 </script>
