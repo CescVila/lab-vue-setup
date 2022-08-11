@@ -4,18 +4,21 @@
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <FooderComponent />
+  <computed />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import NavComponent from './components/NavComponent.vue'
 import FooderComponent from './components/FooderComponent.vue'
+import Computed from './components/ComputedCesc.vue'
 export default {
   name: 'App',
   components: {
     HelloWorld,
     NavComponent,
-    FooderComponent
+    FooderComponent,
+    Computed,
   }
 }
 </script>
